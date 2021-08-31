@@ -27,17 +27,16 @@ objects:
       - host-inventory
       - rbac
       - ingress
-      - system-baseline
-      - drift
 
     optionalDependencies:
       - notifications-backend
       - notifications-gw
+      - system-baseline
 
     testing:
       iqePlugin: drift
     database:
-      name: hsp-db
+      name: hsp
       version: 12
     kafkaTopics:
       - topicName: platform.notifications.ingress
