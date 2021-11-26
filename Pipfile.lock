@@ -272,7 +272,7 @@
         "kerlescan": {
             "editable": true,
             "git": "https://github.com/RedHatInsights/kerlescan.git",
-            "ref": "9f34957c402c4a33c2a184a15b9d1f29b39d3015"
+            "ref": "f7a69007ab66a79b7e68b8f66b60ee868ec55473"
         },
         "logstash-formatter": {
             "hashes": [
